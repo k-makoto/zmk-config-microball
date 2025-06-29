@@ -8,6 +8,7 @@
 #define NUM 6
 
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -103,18 +104,18 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH              &kp DOLLAR    &kp PERCENT                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LG(S))
-&kp AMPERSAND    &kp SQT            &kp EQUAL             &kp CARET     &kp PIPE      &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMI       &kp COLON         &trans
-&kp AT_SIGN      &kp SLASH          &kp NON_US_BACKSLASH  &kp QUESTION  &kp ASTERISK  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans            &trans
-&trans           &trans             &trans                &trans        &trans        &trans      &trans  &trans                                                                        &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH       &kp DOLLAR    &kp PERCENT                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LG(S))
+&kp AMPERSAND    &kp SQT            &kp EQUAL      &kp CARET     &kp PIPE      &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMI       &kp COLON         &trans
+&kp AT_SIGN      &kp SLASH          &kp BACKSLASH  &kp QUESTION  &kp ASTERISK  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans            &trans
+&trans           &trans             &trans         &trans        &trans        &trans      &trans  &trans                                                                        &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp F1   &kp F2   &kp F3     &kp F4     &kp F5                         &kp EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
-&kp F6   &kp F7   &kp F8     &kp F9     &kp F10    &trans      &trans  &kp SLASH     &kp N5        &kp NUMBER_6  &kp N7        &kp N8
-&kp F11  &kp F12  &kp LC(C)  &kp LC(V)  &kp LC(P)  &trans      &trans  &kp ASTERISK  &kp NUMBER_9  &kp NUMBER_0  &kp PERIOD    &kp AT_SIGN
+&kp F1   &kp F2   &kp F3     &kp F4     &kp F5                         &kp EQUAL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0
+&kp F6   &kp F7   &kp F8     &kp F9     &kp F10    &trans      &trans  &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
+&kp F11  &kp F12  &kp LC(C)  &kp LC(V)  &kp LC(P)  &trans      &trans  &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp AT_SIGN
 &trans   &trans   &trans     &trans     &trans     &trans      &trans  &trans                                                  &trans
             >;
         };
