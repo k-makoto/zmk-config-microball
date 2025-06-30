@@ -106,7 +106,7 @@
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR    &kp PERCENT                            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(LG(S))
 &kp AMPERSAND    &kp SQT            &kp MINUS  &kp EQUAL     &kp UNDERSCORE  &trans       &kp HOME  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMI       &kp COLON         &kp PIPE
-&kp CARET        &kp GRAVE          &kp PLUS   &kp ASTERISK  &kp QUESTION    &kp TAB      &kp END   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH      &kp INT_YEN       &kp AT
+&kp CARET        &kp GRAVE          &kp PLUS   &kp ASTERISK  &kp QUESTION    &kp TAB      &kp END   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH      &kp BACKSLASH     &kp AT
 &trans           &trans             &trans     &trans        &trans          &trans       &trans    &trans                                                                        &trans
             >;
         };
