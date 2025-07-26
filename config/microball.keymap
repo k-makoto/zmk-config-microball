@@ -104,19 +104,19 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION   &kp JP_DQUOTE     &kp HASH     &kp DOLLAR       &kp PERCENT                            &kp JP_LPAREN    &kp JP_RPAREN    &kp LESS_THAN  &kp GREATER_THAN  &kp JP_TILDE
-&kp JP_AMPERSAND  &kp JP_QUOTE      &kp MINUS    &kp JP_EQUAL     &kp JP_UNDERSCORE  &trans      &trans  &kp JP_LBRACE    &kp JP_RBRACE    &kp SEMI       &kp JP_COLON      &kp JP_PIPE
-&kp JP_CARET      &kp JP_BACKQUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &kp QUESTION       &trans      &trans  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp SLASH      &kp JP_YEN        &kp JP_AT
-&trans            &trans            &trans       &trans           &trans             &trans      &trans  &trans                                                             &trans
+&kp EXCLAMATION   &kp JP_DQUOTE     &kp HASH     &kp DOLLAR       &kp PERCENT                                   &kp JP_LPAREN    &kp JP_RPAREN    &kp LESS_THAN  &kp GREATER_THAN  &kp JP_TILDE
+&kp JP_AMPERSAND  &kp JP_QUOTE      &kp MINUS    &kp JP_EQUAL     &kp JP_UNDERSCORE  &trans      &trans         &kp JP_LBRACE    &kp JP_RBRACE    &kp SEMI       &kp JP_COLON      &kp JP_PIPE
+&kp JP_CARET      &kp JP_BACKQUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &kp QUESTION       &trans      &trans         &kp JP_LBRACKET  &kp JP_RBRACKET  &kp SLASH      &kp JP_YEN        &kp JP_AT
+&trans            &trans            &trans       &trans           &trans             &trans      &kp LA(ENTER)  &trans                                                             &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &kp NUMBER_6  &kp N7     &kp N8     &kp N9      &kp N0
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &trans      &trans  &kp F6        &kp F7     &kp F8     &kp F9      &kp F10
-&kp F11       &kp F12       &none         &none         &none   &trans      &trans  &none         &kp MINUS  &kp COMMA  &kp PERIOD  &kp JP_AT
-&trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans                                          &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                &kp F1   &kp F2   &kp F3     &kp F4      &kp F5
+&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0     &trans      &trans         &kp F6   &kp F7   &kp F8     &kp F9      &kp F10
+&kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(B)  &trans      &trans         &kp F11  &kp F12  &kp COMMA  &kp PERIOD  &kp JP_AT
+&trans        &trans        &trans        &trans        &trans     &trans      &kp LA(ENTER)  &trans                                   &trans
             >;
         };
 
@@ -124,17 +124,17 @@
             bindings = <
 &kp ESCAPE  &none      &kp PAGE_UP    &kp LC(PAGE_UP)    &kp DELETE                      &none     &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
 &kp LC(A)   &kp LC(S)  &kp PAGE_DOWN  &kp LC(PAGE_DOWN)  &kp INSERT  &trans      &trans  &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5
-&kp LC(Z)   &kp LC(X)  &kp LC(C)      &kp LC(V)          &none       &trans      &trans  &none     &kp LS(TAB)     &kp LEFT_ALT    &kp TAB          &trans
+&kp LC(Z)   &kp LC(X)  &kp LC(C)      &kp LC(V)          &kp LC(B)   &trans      &trans  &none     &kp LS(TAB)     &kp LEFT_ALT    &kp TAB          &trans
 &trans      &trans     &trans         &trans             &trans      &trans      &trans  &trans                                                     &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &kp U          &to_layer_0 I      &to_layer_0 O       &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &to_layer_0 J  &to_layer_0 K      &to_layer_0 L       &to_layer_0 MINUS
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &trans
-&trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                               &trans
+&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                             &to_layer_0 Y  &kp U          &to_layer_0 I      &to_layer_0 O       &to_layer_0 P
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans         &to_layer_0 H  &to_layer_0 J  &to_layer_0 K      &to_layer_0 L       &to_layer_0 MINUS
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans         &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &trans
+&trans         &trans         &trans         &trans         &trans         &trans      &kp LA(ENTER)  &trans                                                               &trans
             >;
         };
 
