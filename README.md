@@ -7,8 +7,13 @@
 ## 🖥️ ハードウェア
 
 - **コントローラー**: Seeeduino XIAO BLE (nRF52840)
+
 - **レイアウト**: 40キー分割レイアウト（親指クラスター付き）
-- 機能:
+
+- 機能
+
+  :
+
   - PMW3610光学式トラックボールセンサー
   - ロータリーエンコーダー対応
   - ワイヤレス接続（Bluetooth）
@@ -41,19 +46,9 @@
 ### 方法1: ビルド済みファームウェアのダウンロード
 
 1. [Actionsタブ](https://github.com/k-makoto/zmk-config-microball/actions)にアクセス
-
 2. 最新の成功したビルドをクリック
-
 3. ファームウェアZIPファイルをダウンロード
-
-4. 解凍して適切な
-
-   ```
-   .uf2
-   ```
-
-   ファイルを書き込み：
-
+4. 解凍して適切な.uf2ファイルを書き込み：
    - `microball_L-seeeduino_xiao_ble-zmk.uf2` → 左半分
    - `microball_R-seeeduino_xiao_ble-zmk.uf2` → 右半分
    - `settings_reset-seeeduino_xiao_ble-zmk.uf2` → 設定リセット

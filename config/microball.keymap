@@ -88,35 +88,30 @@
         };
     };
 
+    // conditional_layers機能は一旦コメントアウト
+    // 代わりにマウスレイヤーでのキー動作を調整
+    /*
     conditional_layers {
         compatible = "zmk,conditional-layers";
         
-        // マウスレイヤー使用時の優先順位設定
-        function_mouse_priority {
-            if-layers = <1 4>;  // FUNCTION + MOUSE
-            then-layer = <1>;   // FUNCTION layer優先
+        // マウスレイヤータイムアウト後の復帰設定
+        // マウスレイヤー（4）が他のレイヤーと同時にアクティブな場合の優先順位
+        mouse_function_combo {
+            if-layers = <1 4>;
+            then-layer = <1>;
         };
         
-        num_mouse_priority {
-            if-layers = <2 4>;  // NUM + MOUSE
-            then-layer = <2>;   // NUM layer優先
+        mouse_num_combo {
+            if-layers = <2 4>;
+            then-layer = <2>;
         };
         
-        arrow_mouse_priority {
-            if-layers = <3 4>;  // ARROW + MOUSE
-            then-layer = <3>;   // ARROW layer優先
-        };
-        
-        scroll_mouse_priority {
-            if-layers = <5 4>;  // SCROLL + MOUSE
-            then-layer = <5>;   // SCROLL layer優先
-        };
-        
-        settings_mouse_priority {
-            if-layers = <6 4>;  // Settings + MOUSE
-            then-layer = <6>;   // Settings layer優先
+        mouse_arrow_combo {
+            if-layers = <3 4>;
+            then-layer = <3>;
         };
     };
+    */
 
     keymap {
         compatible = "zmk,keymap";
