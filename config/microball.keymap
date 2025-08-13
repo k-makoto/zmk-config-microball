@@ -113,9 +113,9 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &none                                 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
-&kp N5        &kp NUMBER_6  &kp N7        &kp N8        &none   &kp LA(ENTER)      &kp LC(C)  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
-&kp N9        &kp N0        &none         &none         &none   &trans             &kp LC(V)  &kp F11  &kp F12  &none   &none   &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &none                                 &none   &kp F1  &kp F2   &kp F3   &kp F4
+&kp N5        &kp NUMBER_6  &kp N7        &kp N8        &none   &kp LA(ENTER)      &kp LC(C)  &none   &kp F5  &kp F6   &kp F7   &kp F8
+&kp N9        &kp N0        &none         &none         &none   &trans             &kp LC(V)  &none   &kp F9  &kp F10  &kp F11  &kp F12
 &trans        &trans        &trans        &trans        &trans  &trans             &trans     &trans                            &trans
             >;
         };
