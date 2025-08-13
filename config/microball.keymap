@@ -88,31 +88,6 @@
         };
     };
 
-    // conditional_layers機能は一旦コメントアウト
-    // 代わりにマウスレイヤーでのキー動作を調整
-    /*
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        
-        // マウスレイヤータイムアウト後の復帰設定
-        // マウスレイヤー（4）が他のレイヤーと同時にアクティブな場合の優先順位
-        mouse_function_combo {
-            if-layers = <1 4>;
-            then-layer = <1>;
-        };
-        
-        mouse_num_combo {
-            if-layers = <2 4>;
-            then-layer = <2>;
-        };
-        
-        mouse_arrow_combo {
-            if-layers = <3 4>;
-            then-layer = <3>;
-        };
-    };
-    */
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -156,10 +131,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &kp U          &to_layer_0 I      &to_layer_0 O       &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &to_layer_0 J  &to_layer_0 K      &to_layer_0 L       &to_layer_0 MINUS
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 PERIOD  &trans
-&trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                               &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
