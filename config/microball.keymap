@@ -122,10 +122,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp LS(PAGE_UP)    &kp PAGE_UP    &kp LS(TAB)  &kp HOME                                &none     &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
-&kp DELETE  &kp LS(PAGE_DOWN)  &kp PAGE_DOWN  &kp TAB      &kp END   &kp LA(ENTER)      &kp LC(C)  &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5
-&kp INSERT  &none              &none          &none        &none     &trans             &kp LC(V)  &none     &kp LS(TAB)     &kp LEFT_ALT    &kp TAB          &trans
-&trans      &trans             &trans         &trans       &trans    &trans             &trans     &trans                                                     &trans
+&kp ESCAPE  &kp PAGE_UP    &kp HOME  &kp LS(TAB)  &mkp MB4                                &none     &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
+&kp DELETE  &kp PAGE_DOWN  &kp END   &kp TAB      &mkp MB5  &kp LA(ENTER)      &kp LC(C)  &mkp MB4  &kp LEFT_ARROW  &kp LEFT_ALT    &kp RIGHT_ARROW  &mkp MB5
+&kp INSERT  &none          &none     &none        &none     &trans             &kp LC(V)  &none     &kp LS(TAB)     &kp DOWN_ARROW  &kp TAB          &trans
+&trans      &trans         &trans    &trans       &trans    &trans             &trans     &trans                                                     &trans
             >;
         };
 
