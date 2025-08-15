@@ -34,6 +34,7 @@
 #define JP_HANZEN       GRAVE             // 半角/全角
 
 // 1. Mod-Tap設定の改善
+
 &mt {
     flavor = "tap-preferred";     // タップ優先
     tapping-term-ms = <200>;      // 適切な長押し時間
@@ -47,10 +48,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -97,10 +95,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &none                                 &none   &kp F1  &kp F2   &kp F3   &kp F4
-&kp N5        &kp NUMBER_6  &kp N7        &kp N8        &none   &kp LA(ENTER)      &kp LC(C)  &none   &kp F5  &kp F6   &kp F7   &kp F8
-&kp N9        &kp N0        &none         &none         &none   &trans             &kp LC(V)  &none   &kp F9  &kp F10  &kp F11  &kp F12
-&trans        &trans        &trans        &trans        &trans  &trans             &trans     &trans                            &trans
+&kp F1  &kp F2   &kp F3   &kp F4   &none                                 &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
+&kp F5  &kp F6   &kp F7   &kp F8   &none   &kp LA(ENTER)      &kp LC(C)  &none   &kp N5        &kp NUMBER_6  &kp N7        &kp N8
+&kp F9  &kp F10  &kp F11  &kp F12  &none   &trans             &kp LC(V)  &none   &kp N9        &kp N0        &none         &none
+&trans  &trans   &trans   &trans   &trans  &trans             &trans     &trans                                            &trans
             >;
         };
 
