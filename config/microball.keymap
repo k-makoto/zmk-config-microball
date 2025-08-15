@@ -33,9 +33,12 @@
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 
+// 1. Mod-Tap設定の改善
 &mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
+    flavor = "tap-preferred";     // タップ優先
+    tapping-term-ms = <200>;      // 適切な長押し時間
+    quick-tap-ms = <150>;          // 連続タップ対応
+    retro-tap;                     // 長押し失敗時の救済
 };
 
 / {
