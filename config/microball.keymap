@@ -41,6 +41,11 @@
     retro-tap;                     // 長押し失敗時の救済
 };
 
+&lt {
+    quick-tap-ms = <175>;  // 連続タップを175ms以内なら確実に処理
+    // これだけでスペース連続入力が改善される
+};
+
 / {
     combos {
         compatible = "zmk,combos";
