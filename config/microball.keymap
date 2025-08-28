@@ -78,7 +78,7 @@
 &kp Q        &kp W         &kp E        &kp R             &kp T                                                      &kp Y          &kp U  &kp I      &kp O    &kp P
 &kp A        &kp S         &kp D        &kp F             &kp G             &kp LG(LS(S))      &kp LA(BACKSPACE)     &kp H          &kp J  &kp K      &kp L    &kp MINUS
 &kp Z        &kp X         &kp C        &kp V             &kp B             &mkp MB1           &mkp MB2              &kp N          &kp M  &kp COMMA  &kp DOT  &kp LEFT_SHIFT
-&lt 5 JP_AT  &kp LEFT_WIN  &lt 6 GRAVE  &lt 3 LANGUAGE_2  &lt 2 LANGUAGE_1  &lt 1 SPACE        &mt LEFT_SHIFT ENTER  &kp BACKSPACE                             &kp LCTRL
+&lt 5 LCTRL  &kp LEFT_WIN  &lt 6 GRAVE  &lt 3 LANGUAGE_2  &lt 2 LANGUAGE_1  &lt 1 SPACE        &mt LEFT_SHIFT ENTER  &kp BACKSPACE                             &kp LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -104,10 +104,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp PAGE_UP    &kp HOME  &kp LS(TAB)  &mkp MB4                                &none     &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
-&kp DELETE  &kp PAGE_DOWN  &kp END   &kp TAB      &mkp MB5  &kp LA(ENTER)      &kp LC(C)  &mkp MB4  &kp LEFT_ARROW  &kp LEFT_ALT    &kp RIGHT_ARROW  &mkp MB5
-&kp INSERT  &none          &none     &none        &none     &trans             &kp LC(V)  &none     &kp LS(TAB)     &kp DOWN_ARROW  &kp TAB          &trans
-&trans      &trans         &trans    &trans       &trans    &trans             &trans     &trans                                                     &trans
+&kp ESCAPE  &kp PAGE_UP         &kp HOME  &kp LS(TAB)  &mkp MB4                                &none     &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
+&kp DELETE  &kp PAGE_DOWN       &kp END   &kp TAB      &mkp MB5  &kp LA(ENTER)      &kp LC(C)  &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5
+&kp INSERT  &kp LA(LC(DELETE))  &none     &none        &none     &trans             &kp LC(V)  &none     &kp LS(TAB)     &kp LALT        &kp TAB          &trans
+&trans      &trans              &trans    &trans       &trans    &trans             &trans     &trans                                                     &trans
             >;
         };
 
