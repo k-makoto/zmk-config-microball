@@ -87,8 +87,8 @@
         FUNCTION {
             bindings = <
 &kp EXCLAMATION   &kp JP_DQUOTE     &kp HASH     &kp DOLLAR       &kp PERCENT                                   &kp JP_LPAREN    &kp JP_RPAREN    &kp LESS_THAN  &kp GREATER_THAN  &kp JP_TILDE
-&kp JP_AMPERSAND  &kp JP_QUOTE      &kp MINUS    &kp JP_EQUAL     &kp JP_UNDERSCORE  &trans      &kp LC(C)      &kp JP_LBRACE    &kp JP_RBRACE    &kp SEMI       &kp JP_COLON      &kp JP_PIPE
-&kp JP_CARET      &kp JP_BACKQUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &kp QUESTION       &trans      &kp LC(V)      &kp JP_LBRACKET  &kp JP_RBRACKET  &kp SLASH      &kp JP_YEN        &kp JP_AT
+&kp JP_AMPERSAND  &kp JP_QUOTE      &kp MINUS    &kp JP_EQUAL     &kp JP_UNDERSCORE  &trans      &kp F7         &kp JP_LBRACE    &kp JP_RBRACE    &kp SEMI       &kp JP_COLON      &kp JP_PIPE
+&kp JP_CARET      &kp JP_BACKQUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &kp QUESTION       &kp F2      &kp F12        &kp JP_LBRACKET  &kp JP_RBRACKET  &kp SLASH      &kp JP_YEN        &kp JP_AT
 &trans            &trans            &trans       &trans           &trans             &trans      &kp LA(ENTER)  &trans                                                             &trans
             >;
         };
