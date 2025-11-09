@@ -86,28 +86,28 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION   &kp JP_DQUOTE     &kp HASH     &kp DOLLAR       &kp PERCENT                                   &kp JP_LPAREN    &kp JP_RPAREN    &kp LESS_THAN  &kp GREATER_THAN  &kp JP_TILDE
-&kp JP_AMPERSAND  &kp JP_QUOTE      &kp MINUS    &kp JP_EQUAL     &kp JP_UNDERSCORE  &trans      &kp F7         &kp JP_LBRACE    &kp JP_RBRACE    &kp SEMI       &kp JP_COLON      &kp JP_PIPE
-&kp JP_CARET      &kp JP_BACKQUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &kp QUESTION       &kp F2      &kp F12        &kp JP_LBRACKET  &kp JP_RBRACKET  &kp SLASH      &kp JP_YEN        &kp JP_AT
-&trans            &trans            &trans       &trans           &trans             &trans      &kp LA(ENTER)  &trans                                                             &trans
+&kp EXCLAMATION   &kp JP_DQUOTE     &kp HASH     &kp DOLLAR       &kp PERCENT                                      &kp JP_LPAREN    &kp JP_RPAREN    &kp LESS_THAN  &kp GREATER_THAN  &kp JP_TILDE
+&kp JP_AMPERSAND  &kp JP_QUOTE      &kp MINUS    &kp JP_EQUAL     &kp JP_UNDERSCORE  &trans         &kp F12        &kp JP_LBRACE    &kp JP_RBRACE    &kp SEMI       &kp JP_COLON      &kp JP_PIPE
+&kp JP_CARET      &kp JP_BACKQUOTE  &kp JP_PLUS  &kp JP_ASTERISK  &kp QUESTION       &kp LC(C)      &kp LC(V)      &kp JP_LBRACKET  &kp JP_RBRACKET  &kp SLASH      &kp JP_YEN        &kp JP_AT
+&trans            &trans            &trans       &trans           &trans             &trans         &kp LA(ENTER)  &trans                                                             &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                             &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&none         &none         &none         &none         &none         &trans      &kp F7         &none         &none         &none         &none         &none
-&none         &none         &none         &none         &none         &kp F2      &kp F12        &none         &none         &none         &none         &none
-&trans        &trans        &trans        &trans        &trans        &trans      &kp LA(ENTER)  &trans                                                  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&none         &kp F2        &none         &none         &none         &trans         &kp F12        &none         &kp F7        &none         &none         &none
+&none         &kp F12       &none         &none         &none         &kp LC(C)      &kp LC(V)      &none         &none         &none         &none         &none
+&trans        &trans        &trans        &trans        &trans        &trans         &kp LA(ENTER)  &trans                                                  &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp PAGE_UP         &kp HOME  &kp LS(TAB)  &mkp MB4                             &none     &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
-&kp DELETE  &kp PAGE_DOWN       &kp END   &kp TAB      &mkp MB5  &trans      &kp F7         &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5
-&kp INSERT  &kp LA(LC(DELETE))  &none     &none        &none     &kp F2      &kp F12        &none     &kp LS(TAB)     &kp LALT        &kp TAB          &trans
-&trans      &trans              &trans    &trans       &trans    &trans      &kp LA(ENTER)  &trans                                                     &trans
+&kp ESCAPE  &kp PAGE_UP         &kp HOME  &kp LS(TAB)  &mkp MB4                                &none     &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
+&kp DELETE  &kp PAGE_DOWN       &kp END   &kp TAB      &mkp MB5  &trans         &kp F12        &mkp MB4  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5
+&kp INSERT  &kp LA(LC(DELETE))  &none     &none        &none     &kp LC(C)      &kp LC(V)      &none     &kp LS(TAB)     &kp LALT        &kp TAB          &trans
+&trans      &trans              &trans    &trans       &trans    &trans         &kp LA(ENTER)  &trans                                                     &trans
             >;
         };
 
